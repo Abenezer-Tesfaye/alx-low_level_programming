@@ -10,25 +10,18 @@
 
 int main(void)
 {
-	int d, p;
+	char lower_case;
+	char upper_case;
 
-	for (d = '0'; d < '9'; d++)
+	for (lower_case = 'a';lower_case = 'z';lower_case++)
 	{
-		for (p = d + 1; p <= '9'; p++)
-		{
-			if (p != d)
-			{
-				putchar(d);
-				putchar(p);
-
-				if (d == '8' && p == '9')
-					continue;
-
-				putchar(',');
-				putchar(' ');
-			}
-		}
+	putchar(lower_case);
 	}
+	for (upper_case = 'A';upper_case = 'Z';upper_case++)
+	{
+        putchar(upper_case);
+        }
+
 	putchar('\n');
 
 	return (0);
