@@ -10,17 +10,11 @@
 
 int main(void)
 {
-	int d;
+	char alphabet;
 
-	for (d = 0; d < 100; d++)
+	for (alphabet = "a"; alphabet <= "z"; alphabet++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 99)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(alphabet);
 	}
 	putchar('\n');
 
