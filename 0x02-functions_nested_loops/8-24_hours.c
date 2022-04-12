@@ -7,6 +7,7 @@
  */
 
 void jack_bauer(void)
+
 {
 int x; 
 int z;
@@ -20,6 +21,9 @@ _putchar (':');
 _putchar (z / 10 + '0');
 _putchar (z % 10 + '0');
 _putchar ('\n');
+
 }
+
 }
+
 }
