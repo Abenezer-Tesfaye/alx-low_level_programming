@@ -16,7 +16,7 @@ p = &n;
 * - your code should be written at line 19, before the ;
 * - prints 98\n
 */
-*(p + 5) = 98;
+p[5] = 98;
 printf("a[2] = %d\n", a[2]);
 return (0);
 }
