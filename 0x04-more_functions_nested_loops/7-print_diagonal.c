@@ -4,7 +4,6 @@
  *@n: print int
  * Return: Always 0.
  */
-int _putchar(char c);
 void print_diagonal(int n)
 {
 
