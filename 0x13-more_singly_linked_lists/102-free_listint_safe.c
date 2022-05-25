@@ -1,9 +1,12 @@
 #include "lists.h"
 #include <stdio.h>
+
+size_t looped_listint_count(listint_t *head);
+size_t free_listint_safe(listint_t **h);
+
 /**
  * free_listint_safe - frees a linked list
  * @h: pointer to the first node in the linked list
- *
  * Return: number of elements in the freed list
  */
 size_t free_listint_safe(listint_t **h)
